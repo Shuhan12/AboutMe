@@ -57,7 +57,8 @@ function myFunction(header, tag1, tag2, gap) {
 var Project = {
     'cyam': {'imgID': 0, 'total': 2},
     'omikuji': {'imgID': 0, 'total': 2},
-    'MNP': {'imgID': 0, 'total': 3}
+    'MNP': {'imgID': 0, 'total': 3},
+    'WebGame': {'imgID': 0, 'total': 7}
 }
 function change_ProjectShowcase(projectID, nowDir){
     var dir = nowDir+"image/ProjectShowcase/";
