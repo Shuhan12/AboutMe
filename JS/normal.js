@@ -59,8 +59,8 @@ var Project = {
     'omikuji': {'imgID': 0, 'total': 2},
     'MNP': {'imgID': 0, 'total': 3}
 }
-function change_ProjectShowcase(projectID){
-    var dir = "'+dir+'image/ProjectShowcase/";
+function change_ProjectShowcase(projectID, nowDir){
+    var dir = nowDir+"image/ProjectShowcase/";
     try {
         Project[projectID]['imgID'] = (Project[projectID]['imgID']+1)%(Project[projectID]['total']);
         console.log(Project[projectID]['imgID']);
