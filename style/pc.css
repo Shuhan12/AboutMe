@@ -1,0 +1,176 @@
+/*
+blue: 9BB8CD
+white: FFF7D4
+yellow: EEC759
+green: B1C381
+link: https://colorhunt.co/palette/9bb8cdfff7d4eec759b1c381
+*/
+
+body {
+    margin: 0;
+    background-color: #FFF7D4;
+} 
+
+a {
+    text-decoration: none;
+}
+.left a:link, .left a:visited {
+    color: #1450A3;
+}
+.left a:hover {
+    color: #FFFFDD;
+}
+
+.list_icon {
+    vertical-align: middle;
+    height: 25px;
+    width: 25px;
+    padding: 3px 3px;
+}
+
+.my_img {
+    height: 165px;
+    width: 165px;
+    object-fit: contain;
+    border-radius: 50%;
+    margin: 50px 0 20px 0;
+}
+
+.gap {
+    height: 35px;
+}
+
+/* 百分圖 */
+.circle{
+    --width: 135px;
+    --deg: calc(360deg * calc(var(--percent) / 100));
+    width: var(--width);
+    height: var(--width);
+    border-radius: 50%;
+    margin: 0px auto;
+    background-image: conic-gradient(#617A55 var(--deg), #B1C381 var(--deg));
+    position: relative;
+    z-index: 1;
+}
+.circle-inside{
+    --bar-width: 28px;
+    position: absolute;
+    display: flex;
+    z-index: 2;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background: #FFFBEB;
+    width: calc(var(--width) - var(--bar-width));
+    height: calc(var(--width) - var(--bar-width));
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    text-align: center;
+}
+
+
+.left {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 20vw;
+    background-color: #9BB8CD;
+    text-align: center;
+    z-index: 100;
+}
+
+.right {
+    position: absolute;
+    left: 20vw;
+    width: 80vw;
+    margin: 30px 0;
+}
+
+.gridbox {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    row-gap: 10px;
+    margin-top: 25px;
+    width: 90%;
+    margin: 25px auto 0 auto;
+}
+
+#name {
+    font-size: 24px;
+    text-align: left;
+    color: #08326c;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.information {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 8px;
+    color: #1450A3;
+    font-size: 16px;
+    position: fixed;
+    left: 0;
+    bottom: 5px;
+    text-align: left;
+    width: 19vw;
+    margin-left: 0.5vw;
+    align-items: center;
+}
+
+#page {
+    margin: 20px 0px;
+    line-height: 32px;
+    font-size: 20px;
+}
+
+.title {
+    color: #F9975D;
+    font-size: 26px;
+    border-bottom: #EEC759 1px solid;
+    margin: 10px 25px 0 25px;
+}
+.content {
+    color: #617A55;
+    font-size: 20px;
+    text-align: left;
+    margin: 10px 35px;
+}
+
+.content_box {
+    margin: 0 6%;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    text-align: center;
+    padding: 15px 0;
+    align-items: center;
+    place-content: center;
+}
+
+.content a, .content a:link {
+    color: #304D30;
+}
+.content a:hover {
+    color: #B1C381;
+}
+
+h3 {
+    margin: 3px;
+}
+
+.line {
+    width: 100%;
+    border-radius: 8%;
+}
+
+.ProjectImg {
+    max-width: 400px;
+    width: 100%;
+    min-width: 350px;
+    align-items: right;
+}
+
+
