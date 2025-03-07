@@ -6,24 +6,24 @@
 }*/
 
 
-function left(){
+function left(dir){
     document.write('<div class="left">');
     document.write('<div id="my_img">');
-    document.write('<img src="../image/ShuHan.JPG" class="my_img">');
+    document.write('<img src=dir+"image/ShuHan.JPG" class="my_img">');
     document.write('</div>');
     document.write('<div id="name">鄧書涵<br>Shu-Han, Deng</div>');
     document.write('<div id="headerTag1"></div>');
     document.write('<div id="page">');
-    document.write('<a href="../page/AboutMe.html">關於我</a><br>');
-    document.write('<a href="../page/ProjectShowcase.html">作品集</a>');
+    document.write('<a href=dir+"page/AboutMe.html">關於我</a><br>');
+    document.write('<a href=dir+"page/ProjectShowcase.html">作品集</a>');
     document.write('</div>');
     document.write('<div class="information">');
     document.write('<div>');
-    document.write('<img src="../image/phone.png" class="list_icon"><a href="tel:0963712982">0963-712-982</a>');
+    document.write('<img src=dir+"image/phone.png" class="list_icon"><a href="tel:0963712982">0963-712-982</a>');
     document.write('<br>');
-    document.write('<img src="../image/email.png" class="list_icon"><a href="mailto:asjwwu12@gmail.com">asjwwu12@gmail.com</a>');
+    document.write('<img src=dir+"image/email.png" class="list_icon"><a href="mailto:asjwwu12@gmail.com">asjwwu12@gmail.com</a>');
     document.write('</div>');
-    document.write('<img src="../image/line.JPG" class="line">');
+    document.write('<img src=dir+"image/line.JPG" class="line">');
     document.write('</div>');
     document.write('<div id="headerTag2"></div>');
     document.write('</div>');
@@ -60,7 +60,7 @@ var Project = {
     'MNP': {'imgID': 0, 'total': 3}
 }
 function change_ProjectShowcase(projectID){
-    var dir = "../image/ProjectShowcase/";
+    var dir = dir+"image/ProjectShowcase/";
     try {
         Project[projectID]['imgID'] = (Project[projectID]['imgID']+1)%(Project[projectID]['total']);
         console.log(Project[projectID]['imgID']);
