@@ -12,10 +12,10 @@
 
 
 .left a:hover {
-    color: #1450A3;
+    color: var(--a-link-visited);
 }
 .content a:hover {
-    color: #304D30;
+    color: var(--content-link-visited);
 }
 
 .left {
@@ -42,7 +42,7 @@
     display: flex;
     position: fixed;
     top: 0;
-    background-color: #9BB8CD;
+    background-color: var(--left-background);
     text-align: center;
     z-index: 100;
     height: auto;

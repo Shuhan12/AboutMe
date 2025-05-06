@@ -8,17 +8,17 @@ link: https://colorhunt.co/palette/9bb8cdfff7d4eec759b1c381
 
 body {
     margin: 0;
-    background-color: #FFF7D4;
+    background-color: var(--background-yellow);
 } 
 
 a {
     text-decoration: none;
 }
 .left a:link, .left a:visited {
-    color: #1450A3;
+    color: var(--a-link-visited);
 }
 .left a:hover {
-    color: #FFFFDD;
+    color: var(--a-hover);
 }
 
 .list_icon {
@@ -48,7 +48,7 @@ a {
     height: var(--width);
     border-radius: 50%;
     margin: 0px auto;
-    background-image: conic-gradient(#617A55 var(--deg), #B1C381 var(--deg));
+    background-image: conic-gradient(var(--fontcolor) var(--deg), var(--content-hover) var(--deg));
     position: relative;
     z-index: 1;
 }
@@ -77,7 +77,7 @@ a {
     left: 0;
     height: 100vh;
     width: 20vw;
-    background-color: #9BB8CD;
+    background-color: var(--left-background);
     text-align: center;
     z-index: 100;
 }
@@ -96,14 +96,14 @@ a {
     margin: 15px auto;
     width: 90%;
     gap: 10px;
-    color: #617A55;
+    color: var(--fontcolor);
     font-size: 20px;
 }
 
 #name {
     font-size: 24px;
     text-align: left;
-    color: #08326c;
+    color: var(--left-fontcolor);
     width: 60%;
     margin: 0 auto;
 }
@@ -112,7 +112,7 @@ a {
     display: grid;
     grid-template-columns: auto 1fr;
     gap: 8px;
-    color: #1450A3;
+    color: var(--a-link-visited);
     font-size: 16px;
     position: fixed;
     left: 0;
@@ -130,13 +130,13 @@ a {
 }
 
 .title {
-    color: #F9975D;
+    color: var(--title-fontcolor);
     font-size: 26px;
     border-bottom: #EEC759 1px solid;
     margin: 10px 25px 0 25px;
 }
 .content {
-    color: #617A55;
+    color: var(--fontcolor);
     font-size: 20px;
     text-align: left;
     margin: 10px 35px;
@@ -153,10 +153,10 @@ a {
 }
 
 .content a, .content a:link {
-    color: #304D30;
+    color: var(--content-link-visited);
 }
 .content a:hover {
-    color: #B1C381;
+    color: var(--content-hover);
 }
 
 h3 {

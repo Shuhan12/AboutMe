@@ -21,10 +21,10 @@
 }
 
 .left a:hover {
-    color: #1450A3;
+    color: var(--a-link-visited);
 }
 .content a:hover {
-    color: #304D30;
+    color: var(--content-link-visited);
 }
 
 .left {
