@@ -43,10 +43,11 @@
 .information {
     grid-column: 1/2;
     grid-row: 3/4;
+    /*grid-template-columns: 75% 25%;*/
+    grid-template-columns: 1fr;
     position: relative;
     width: auto;
     margin: auto;
-    grid-template-columns: 75% 25%;
 }
 
 .line {

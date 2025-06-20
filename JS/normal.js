@@ -23,7 +23,7 @@ function left(dir){
     document.write('<br>');
     document.write('<img src="'+dir+'image/email.png" class="list_icon"><a href="mailto:asjwwu12@gmail.com">asjwwu12@gmail.com</a>');
     document.write('</div>');
-    document.write('<img src="'+dir+'image/line.JPG" class="line">');
+    //document.write('<img src="'+dir+'image/line.JPG" class="line">');
     document.write('</div>');
     document.write('<div id="headerTag2"></div>');
     document.write('</div>');

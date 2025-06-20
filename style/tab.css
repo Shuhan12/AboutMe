@@ -56,11 +56,12 @@
 }
 
 .information {
+    /*grid-template-columns: auto 1fr;*/
     grid-column: 3 / 4;
     grid-row: 1 / 2;
     position: relative;
     width: auto;
-    grid-template-columns: auto 1fr;
+    grid-template-columns: 1fr;
 }
 
 .line {
