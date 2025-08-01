@@ -17,6 +17,13 @@
       
       <script>
         left('../');
+        function auto_ProjectShowcase(){
+          for (const Project of ['cyam', 'MNP', 'omikuji', 'WebGame']) {
+            change_ProjectShowcase(Project, '../');
+          }
+          setTimeout(auto_ProjectShowcase, 5000);
+        }
+        setTimeout(auto_ProjectShowcase, 5000);
       </script>
 
       <div class="right">
