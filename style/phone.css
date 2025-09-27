@@ -17,7 +17,8 @@
 #page {
     gap: 50px;
     line-height: 30px;
-    font-size: 18px;
+    font-size: 20px;
+    padding-top: 20px;
 }
 
 .left a:hover {
