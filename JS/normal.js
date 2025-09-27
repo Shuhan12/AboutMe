@@ -14,8 +14,8 @@ function left(dir){
     document.write('<div id="name">鄧書涵<br>Shu-Han, Deng</div>');
     document.write('<div id="headerTag1"></div>');
     document.write('<div id="page">');
-    document.write('<a href="'+dir+'index.html">關於我</a>');
-    document.write('<a href="'+dir+'page/ProjectShowcase.html">作品集</a>');
+    document.write('<a href="'+dir+'index.html">About</a>');
+    document.write('<a href="'+dir+'page/ProjectShowcase.html">Portfolio</a>');
     document.write('</div>');
     document.write('<div class="information">');
     document.write('<div>');

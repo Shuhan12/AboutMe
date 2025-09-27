@@ -40,6 +40,12 @@ a {
     height: 35px;
 }
 
+.Skills img {
+    width: 110px;
+    height: 110px;
+    margin: 0 auto;
+}
+
 /* 百分圖 */
 .circle{
     --width: 135px;
@@ -91,11 +97,11 @@ a {
 
 .gridbox {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     row-gap: 10px;
     margin: 15px auto;
-    width: 90%;
-    gap: 10px;
+    width: 85%;
+    gap: 12px;
     color: var(--fontcolor);
     font-size: 20px;
 }

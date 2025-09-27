@@ -98,6 +98,11 @@
     margin: auto;
 }
 
+.Skills img {
+    width: 125px;
+    height: 125px;
+}
+
 /* 百分圖 */
 .circle{
     --width: 125px;

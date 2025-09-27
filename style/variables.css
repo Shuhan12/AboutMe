@@ -4,8 +4,13 @@
     --left-fontcolor: #08326c;
     --a-link-visited: #1450A3;
     --a-hover: #FFFFDD;
-    --fontcolor: #617A55;
+    --fontcolor: #617A55; /* 61 112 55 */
     --title-fontcolor: #F9975D;
     --content-link-visited: #304D30;
     --content-hover: #B1C381;
 }
+
+/*
+icon: https://fontawesome.com/search?o=r
+41 68 50
+*/
