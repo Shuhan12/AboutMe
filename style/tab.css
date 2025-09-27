@@ -18,6 +18,10 @@
     color: var(--content-link-visited);
 }
 
+body {
+    background-color: var(--left-background);
+}
+
 .left {
     position: relative;
     height: auto;
@@ -69,6 +73,7 @@
     left: 0;
     width: 100vw;
     margin: 10px 0;
+    background-color: var(--background-yellow);
 }
 
 .information {
