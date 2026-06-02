@@ -21,7 +21,7 @@ function left(dir){
     document.write('<div>');
     document.write('<img src="'+dir+'image/phone.png" class="list_icon"><a href="tel:0963712982">0963-712-982</a>');
     document.write('<br>');
-    document.write('<img src="'+dir+'image/email.png" class="list_icon"><a href="mailto:asjwwu12@gmail.com">asjwwu12@gmail.com</a>');
+    document.write('<img src="'+dir+'image/email.png" class="list_icon"><a href="mailto:asjwwu25@gmail.com">asjwwu25@gmail.com</a>');
     document.write('</div>');
     //document.write('<img src="'+dir+'image/line.JPG" class="line">');
     document.write('</div>');
